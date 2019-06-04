@@ -9,10 +9,10 @@
     }
 
     div#container {
-    width: 1000px;
-    height: 600px;
+    width: 800px;
+    height: 500px;
     margin: auto;
-    background-color: rgb(46, 46, 46);
+    background-color: #f1f1f1;
     }
 
     svg {
@@ -26,7 +26,7 @@
 
     text {
       font-size: 14px;
-      fill: #fff;
+      fill: rgb(10, 10, 10);
       font-size: small;
       font-family: 'Roboto';
     }
@@ -54,14 +54,10 @@
     stroke-opacity: 0.3;
     }
 
-    text.divergence {
-    font-size: 14px;
-    fill: #2F4A6D;
-    }
 
     text.value {
     font-size: 14px;
-    fill:white;
+    fill:rgb(10, 10, 10);
     }
 
     text.title {

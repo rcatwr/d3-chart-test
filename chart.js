@@ -38,8 +38,8 @@ const data = [
 
     const marginTopBottom = 60;
     const marginSides = 175;
-    const width = 1000 - (2 * marginSides);
-    const height = 600 - (2 * marginTopBottom);
+    const width = 800 - (2 * marginSides);
+    const height = 500 - (2 * marginTopBottom);
 
     const svg = d3.select('svg');
 
@@ -103,7 +103,7 @@ const data = [
                       return xScale(s.value) - 15
                     }
                })
-               .attr('y', (a) => yScale(a.region) + 30)
+               .attr('y', (a) => yScale(a.region) + 25)
                .attr('font-weight', 'bold')
                .attr('text-anchor', 'middle')
                .text((a, idx) => {
