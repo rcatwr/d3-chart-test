@@ -19,7 +19,7 @@ const data = [
              },
  			{
                region: 'Kootenay',
-               value: 16,
+               value: 2,
              },
  			{
                region: 'Mainland-Southwest',
@@ -28,11 +28,8 @@ const data = [
  		    {
                region: 'Vancouver Island-Coast',
                value: 49,
-             },
- 			{
-               region: 'Prefer not to answer',
-               value: 3,
-             }];
+             }
+ 		];
 
     // this is the chart size
 
@@ -148,10 +145,10 @@ const data = [
             .attr('y', 40)
             .attr('text-anchor', 'middle')
             .attr('class', 'title')
-            .text('Survey Completes by BC Region')
+            .text('Total Sales in BC by Region')
 
         svg.append('text')
             .attr('x', width/2 + marginSides)
-            .attr('y',575)
+            .attr('y', 480)
             .attr('text-anchor', 'middle')
-            .text('Survey Completions')
+            .text('Units Sold')
